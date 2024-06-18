@@ -29,13 +29,13 @@ li{
   font-size: 2rem;
 }
 .linkHeader:hover{
-  border: 1px black solid;
+  border: 1px whitesmoke solid;
   margin:1rem;
   padding: 1rem;
   padding-bottom: 0;
   text-decoration: none;
-  color: cornflowerblue;
-  background-color: #282c34;
+  color: white;
+  background-color: #282c348f;
   font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: weight;
