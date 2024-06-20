@@ -16,7 +16,6 @@ const Products = () => {
     <div>
       <Header />
       <div>
-        <h1>Hola mundo</h1>
         <div>
             {data.map((data)=>(
                 <ProductCard key={data.id} data={data}/>

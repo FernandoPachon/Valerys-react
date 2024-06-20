@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, BrowserRouter,Routes,Route } from "react-router-dom";
-import estilos from"./App.css";
+import estilos from"../App.css";
 import Home from "./Home";
 import Products from "./Products";
-import Logo from "./assets/img/LogoTienda .png"
+import Logo from "../assets/img/LogoTienda .png"
 
 const Header = () => {
-    const [open, setOpen]= useState(false);
         return (
     <BrowserRouter>
         <header  className="menu-headerValerys" style={estilos}>
