@@ -1,52 +1,580 @@
-.navBar{
-  display: flex;
-  justify-content: center;
+/* estilos max desktop */
+@media (min-width: 1281px) {
+  .containerHome{
+    display: flex;
+    flex-direction: column;
+  }
+  .containerProduct{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+  }
+  .containerProductSummary{
+    width: fit-content;
+  }
+  .navBar{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    list-style: none;
+    gap: 1rem;
+    margin:2rem;
+  }
+  .menu-headerValerys{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem;
+  }
+  .linkHeader{
+    margin:1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 3rem;
+  }
+  .linkHeader:hover{
+    border: 1px whitesmoke solid;
+    margin:1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #282c348f;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .imageLogo{
+    max-width:10rem ;
+    height:auto;
+    padding: 0;
+    min-width: 3rem;
+  }
+  .containerProductCard{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    border:1px whitesmoke solid;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .containerProductCard:hover{
+    transform: scale(1.05);
+  }
+  .imgProductCard{
+    height: 40%;
+  }
+  .titleProductCard{
+    font-family: "Merienda", cursive;
+    font-size: 15px;
+    height: 10%;
+  }
+  .infoProductCard{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  .priceProductCard{
+    height: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: auto;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-self: center;
+  }
+  .btnProductCard{
+    height: 10%;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  .btnProductCard:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    color:coral ;
+  }
+  .containerProductSummary{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    margin: 3vh;
+    padding: auto;
+  } 
+  .titleSummary{
+    display: flex;
+    margin: auto;
+  }
+  .containerProductSummaryTablet{
+    display:none;
+  }
+  .containerProductSummaryMobile{
+    display:none;
+  }
+  .containerFooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    position: relative;
+    bottom: -29rem;
+    width: fit-content;
+  }
+  .containerExpFooter{
+    width: 25%;
+  }
+  .containerContactFooter{
+    width: 25%;
+  }
+  .containerServicesFooter{
+    width: 25%;
+  }
+  .containerUsFooter{
+    width: 25%;
+  }
+  .containerBarRegistrer{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    width: fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .titleBarRegistrer{
+    margin: auto;
+    padding: auto;
+  }
+  .imgMediaSocial{
+    width: 2rem;
+  }
 }
-li{
-  list-style: none;
-  gap: 1rem;
-  margin:2rem;
+/* estilos desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .containerProduct{
+    width: max-content;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .containerProductSummary{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  .navBar{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    list-style: none;
+    gap: 1rem;
+    margin:2rem;
+  }
+  .menu-headerValerys{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem;
+  }
+  .linkHeader{
+    margin:1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  .linkHeader:hover{
+    border: 1px whitesmoke solid;
+    margin:1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #282c348f;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .imageLogo{
+    max-width:7rem ;
+    height:auto;
+    padding: 0;
+    min-width: 3rem;
+  }
+  .containerProductCard{
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vh;
+    padding: 0.2vh;
+    border:1px whitesmoke solid;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .containerProductCard:hover{
+    transform: scale(1.05);
+  }
+  .imgProductCard{
+    height: 40%;
+  }
+  .titleProductCard{
+    font-family: "Merienda", cursive;
+    font-size: 15px;
+    height: 10%;
+  }
+  .infoProductCard{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  .priceProductCard{
+    height: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: auto;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-self: center;
+  }
+  .btnProductCard{
+    height: 10%;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  .btnProductCard:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    color:coral ;
+  }
+  /* .containerProductSummary{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    margin: 3vh;
+    padding: auto;
+  } */
+  .containerProductSummaryTablet{
+    display:none;
+  }
+  .containerProductSummaryMobile{
+    display:none;
+  }
 }
-.menu-headerValerys{
-  position: sticky;
-  top: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin: 2rem;
+/* ---------------- estilos tablet  ------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navBar{
+    display: flex;
+    width: max-content;
+    margin: auto;
+  }
+  .menu-headerValerys{
+    width: max-content;
+    margin: auto;
+  }
+  .containerProduct{
+    width: max-content;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerProductSummaryTablet{
+    display: flex;
+    width: max-content;
+  }
+  .navBar{
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    list-style: none;
+    gap: 1rem;
+    margin:2rem;
+  }
+  .menu-headerValerys{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+  }
+  .linkHeader{
+    margin:1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  .linkHeader:hover{
+    border: 1px whitesmoke solid;
+    margin:1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #282c348f;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .imageLogo{
+    max-width:7rem ;
+    height:auto;
+    padding: 0;
+    min-width: 3rem;
+  }
+  .containerProductCard{
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vh;
+    padding: 0.2vh;
+    border:1px whitesmoke solid;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .containerProductCard:hover{
+    transform: scale(1.05);
+  }
+  .imgProductCard{
+    height: 40%;
+  }
+  .titleProductCard{
+    font-family: "Merienda", cursive;
+    font-size: 15px;
+    height: 10%;
+  }
+  .infoProductCard{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  .priceProductCard{
+    height: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: auto;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-self: center;
+  }
+  .btnProductCard{
+    height: 10%;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  .btnProductCard:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    color:coral ;
+  }
+  /* .containerProductSummary{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10rem;
+    margin: 3vh;
+    padding: auto;
+  } */
+  
 }
-.linkHeader{
-  margin:1rem;
-  padding: 1rem;
-  text-decoration: none;
-  color: black;
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-size: 2rem;
+
+/*------------- estilos mobile -------------------------*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .navBar{
+    display: flex;
+    width: max-content;
+    margin: auto;
+  }
+  .menu-headerValerys{
+    width: max-content;
+    margin: auto;
+  }
+  .containerProductSummaryTablet{
+    display: none;
+  }
+  .containerProductSummary{
+    display: none;
+  }
+  .menu-headerValerys{
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+  }
+  .linkHeader{
+    margin:1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1rem;
+  }
+  .linkHeader:hover{
+    border: 1px whitesmoke solid;
+    margin:1rem;
+    padding: 1rem;
+    padding-bottom: 0;
+    text-decoration: none;
+    color: white;
+    background-color: #282c348f;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .containerProduct{
+    width: max-content;
+    display: flex;
+    margin: auto;
+  }
+  .containerProductCard{
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vh;
+    padding: 0.2vh;
+    border:1px whitesmoke solid;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .containerProductCard:hover{
+    transform: scale(1.05);
+  }
+  .imgProductCard{
+    height: 40%;
+  }
+  .titleProductCard{
+    font-family: "Merienda", cursive;
+    font-size: 15px;
+    height: 10%;
+  }
+  .infoProductCard{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  .priceProductCard{
+    height: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: auto;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    align-self: center;
+  }
+  .btnProductCard{
+    height: 10%;
+    align-self: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: wheat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+  }
+  .btnProductCard:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    color:coral ;
+  }
 }
-.linkHeader:hover{
-  border: 1px whitesmoke solid;
-  margin:1rem;
-  padding: 1rem;
-  padding-bottom: 0;
-  text-decoration: none;
-  color: white;
-  background-color: #282c348f;
-  font-family: "Merienda", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+/* estilos smart phone */
+@media (min-width: 220px) and (max-width: 480px) {
+   .containerProductSummary{
+    display: none;
+  }
+   .containerProductSummaryTablet{
+    display: none;
+  }
+
 }
-.imageLogo{
-  max-width:7rem ;
-  height:auto;
-  padding: 0;
-  min-width: 3rem;
-}
+
+
 /* --------------------------------- */
 .App {
   text-align: center;
